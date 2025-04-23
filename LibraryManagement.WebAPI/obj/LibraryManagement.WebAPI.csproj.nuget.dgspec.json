@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj",
+        "projectName": "LibraryManagement.WebAPI",
+        "projectPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Metehan Ok\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Metehan Ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\LibraryManagementAPI.Data.csproj": {
+                "projectPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\LibraryManagementAPI.Data.csproj"
+              },
+              "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj": {
+                "projectPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.136\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Core\\LibraryManagementAPI.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Core\\LibraryManagementAPI.Core.csproj",
+        "projectName": "LibraryManagementAPI.Core",
+        "projectPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Core\\LibraryManagementAPI.Core.csproj",
+        "packagesPath": "C:\\Users\\Metehan Ok\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Metehan Ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.136\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\LibraryManagementAPI.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\LibraryManagementAPI.Data.csproj",
+        "projectName": "LibraryManagementAPI.Data",
+        "projectPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\LibraryManagementAPI.Data.csproj",
+        "packagesPath": "C:\\Users\\Metehan Ok\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Metehan Ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Core\\LibraryManagementAPI.Core.csproj": {
+                "projectPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Core\\LibraryManagementAPI.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.136\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj",
+        "projectName": "LibraryManagementAPI.Service",
+        "projectPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj",
+        "packagesPath": "C:\\Users\\Metehan Ok\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Metehan Ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Core\\LibraryManagementAPI.Core.csproj": {
+                "projectPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Core\\LibraryManagementAPI.Core.csproj"
+              },
+              "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\LibraryManagementAPI.Data.csproj": {
+                "projectPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\LibraryManagementAPI.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.136\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

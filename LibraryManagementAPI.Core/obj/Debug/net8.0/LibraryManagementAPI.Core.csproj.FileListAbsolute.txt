@@ -1,0 +1,11 @@
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\bin\Debug\net8.0\LibraryManagementAPI.Core.deps.json
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\bin\Debug\net8.0\LibraryManagementAPI.Core.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\bin\Debug\net8.0\LibraryManagementAPI.Core.pdb
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\obj\Debug\net8.0\LibraryManagementAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\obj\Debug\net8.0\LibraryManagementAPI.Core.AssemblyInfoInputs.cache
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\obj\Debug\net8.0\LibraryManagementAPI.Core.AssemblyInfo.cs
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\obj\Debug\net8.0\LibraryManagementAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\obj\Debug\net8.0\LibraryManagementAPI.Core.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\obj\Debug\net8.0\refint\LibraryManagementAPI.Core.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\obj\Debug\net8.0\LibraryManagementAPI.Core.pdb
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Core\obj\Debug\net8.0\ref\LibraryManagementAPI.Core.dll

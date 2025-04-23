@@ -1,0 +1,17 @@
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\bin\Debug\net8.0\LibraryManagementAPI.Service.deps.json
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\bin\Debug\net8.0\LibraryManagementAPI.Service.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\bin\Debug\net8.0\LibraryManagementAPI.Service.pdb
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\bin\Debug\net8.0\LibraryManagementAPI.Core.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\bin\Debug\net8.0\LibraryManagementAPI.Data.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\bin\Debug\net8.0\LibraryManagementAPI.Core.pdb
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\bin\Debug\net8.0\LibraryManagementAPI.Data.pdb
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryManagementAPI.Service.csproj.AssemblyReference.cache
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryManagementAPI.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryManagementAPI.Service.AssemblyInfoInputs.cache
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryManagementAPI.Service.AssemblyInfo.cs
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryManagementAPI.Service.csproj.CoreCompileInputs.cache
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryM.A0FBC166.Up2Date
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryManagementAPI.Service.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\refint\LibraryManagementAPI.Service.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryManagementAPI.Service.pdb
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\ref\LibraryManagementAPI.Service.dll

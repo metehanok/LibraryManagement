@@ -1,0 +1,17 @@
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\bin\Debug\net8.0\LibraryManagementAPI.Data.deps.json
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\bin\Debug\net8.0\LibraryManagementAPI.Data.runtimeconfig.json
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\bin\Debug\net8.0\LibraryManagementAPI.Data.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\bin\Debug\net8.0\LibraryManagementAPI.Data.pdb
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\bin\Debug\net8.0\LibraryManagementAPI.Core.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\bin\Debug\net8.0\LibraryManagementAPI.Core.pdb
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.csproj.AssemblyReference.cache
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.AssemblyInfoInputs.cache
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.AssemblyInfo.cs
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryM.46A96FA2.Up2Date
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\refint\LibraryManagementAPI.Data.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.pdb
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.genruntimeconfig.cache
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\ref\LibraryManagementAPI.Data.dll

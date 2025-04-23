@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryManagement.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:LibraryManagement.WebAPI.Controllers.AuthorController">
+            <summary>
+            Yazar işlemleriyle ilgili API metodlarını içeren controller sınıfı.
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.AuthorController.#ctor(AutoMapper.IMapper,FluentValidation.IValidator{LibraryManagementAPI.Service.DTO.AuthorCreateDTO},FluentValidation.IValidator{LibraryManagementAPI.Service.DTO.AuthorUpdateDTO},LibraryManagementAPI.Core.Services.IAuthorService)">
+            <summary>
+            <see cref="T:LibraryManagement.WebAPI.Controllers.AuthorController"/> sınıfının kurucusu
+            </summary>
+            <param name="mapper">DTO'lar ile entity'ler arasındaki dönüşümü yapan Mapper nesnesi.</param>
+            <param name="validator">Yeni yazar kaydı için doğrulama işlemi yapan validator.</param>
+            <param name="updateValidator">Mevcut yazar kaydını güncelleme için doğrulama işlemi yapan validator.</param>
+            <param name="authorService">Yazar işlemleri için servis sınıfı.</param>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.AuthorController.GetAllAuthors(LibraryManagementAPI.Service.DTO.AuthorReadDTO)">
+            <summary>
+            Tüm yazarları getirir.
+            </summary>
+            <returns>Tüm yazarları içeren bir liste döndürür.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.AuthorController.GetAuthorsById(System.Int32)">
+            <summary>
+            Belirtilen ID'ye sahip yazarı getirir.
+            </summary>
+            <param name="id">Getirilecek yazarın ID'si.</param>
+            <returns>Belirtilen ID'ye sahip yazar bulunursa döndürülür.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.AuthorController.CreateAuthor(LibraryManagementAPI.Service.DTO.AuthorCreateDTO)">
+            <summary>
+            Yeni bir yazar oluşturur.
+            </summary>
+            <param name="authorCreateDTO">Oluşturulacak yazar bilgilerini içeren DTO.</param>
+            <returns>Yazar başarıyla oluşturulursa 201 Created döndürülür.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.AuthorController.UpdateAuthors(System.Int32,LibraryManagementAPI.Service.DTO.AuthorUpdateDTO)">
+            <summary>
+            Var olan bir yazarı günceller.
+            </summary>
+            <param name="id">Güncellenecek yazarın ID'si.</param>
+            <param name="authorUpdateDTO">Güncellenmek istenen yazar bilgilerini içeren DTO.</param>
+            <returns>Başarıyla güncellenirse 204 No Content döndürülür. Yazar bulunamazsa 404 döndürülür.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.AuthorController.DeleteAuthors(System.Int32)">
+            <summary>
+            Belirtilen ID'ye sahip yazarı siler.
+            </summary>
+            <param name="id">Silinecek yazarın ID'si.</param>
+            <returns>Başarıyla silinirse 200 OK döndürülür. Yazar bulunamazsa 404 döndürülür.</returns>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Controllers.BookController">
+            <summary>
+            Kitap işlemleriyle ilgili API metodlarını içeren controller sınıfı.
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BookController.#ctor(AutoMapper.IMapper,LibraryManagementAPI.Core.Services.IBookService,FluentValidation.IValidator{LibraryManagementAPI.Service.DTO.BookCreateDTO},FluentValidation.IValidator{LibraryManagementAPI.Service.DTO.BookUpdateDTO},LibraryManagementAPI.Core.Services.IBorrowedBookService)">
+            <summary>
+            <see cref="T:LibraryManagement.WebAPI.Controllers.BookController"/> sınıfının kurucusu.
+            </summary>
+            <param name="mapper">DTO ve Entity dönüştürmeleri için kullanılan mapper.</param>
+            <param name="bookService">Kitap servisi.</param>
+            <param name="validator">Yeni kitap ekleme için kullanılan doğrulayıcı.</param>
+            <param name="updateValidator">Kitap güncelleme için kullanılan doğrulayıcı.</param>
+            <param name="borrowedBookService">Ödünç alınan kitapları yönetmek için kullanılan servis.</param>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BookController.CreateBook(LibraryManagementAPI.Service.DTO.BookCreateDTO)">
+            <summary>
+            Yeni bir kitap oluşturur.
+            </summary>
+            <param name="bookCreateDTO">Oluşturulacak kitap bilgilerini içeren DTO.</param>
+            <returns>Başarılı bir şekilde kitap oluşturulursa, kitap bilgisi ile birlikte 201 Created status kodu döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BookController.GetBookById(System.Int32)">
+            <summary>
+            Verilen ID'ye sahip kitabın bilgilerini döner.
+            </summary>
+            <param name="id">Kitabın ID'si.</param>
+            <returns>Kitap bulunursa, kitap bilgilerini içeren 200 OK döner; bulunamazsa 404 Not Found döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BookController.GetAllBooks">
+            <summary>
+            Sistemdeki tüm kitapları döner.
+            </summary>
+            <returns>Kitapların listesi döner. Hiç kitap bulunmazsa 404 Not Found döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BookController.UpdateBook(System.Int32,LibraryManagementAPI.Service.DTO.BookUpdateDTO)">
+            <summary>
+            Verilen ID'ye sahip kitabı günceller.
+            </summary>
+            <param name="id">Güncellenmek istenen kitabın ID'si.</param>
+            <param name="bookUpdateDto">Güncellenmiş kitap bilgilerini içeren DTO.</param>
+            <returns>Başarılı bir şekilde güncellenirse, 204 No Content döner; hata durumunda 400 Bad Request veya 404 Not Found döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BookController.DeleteBook(System.Int32)">
+            <summary>
+            Verilen ID'ye sahip kitabı siler.
+            </summary>
+            <param name="id">Silinmek istenen kitabın ID'si.</param>
+            <returns>Başarılı bir şekilde silindiyse, 204 No Content döner; silinemeyen bir kitap için 400 Bad Request döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BookController.GetBooksByAuthor(System.Int32)">
+            <summary>
+            Yazarın ID'sine göre kitapları listeleyen metod.
+            </summary>
+            <param name="authorId">Yazarın ID'si.</param>
+            <returns>Yazarına göre kitapların listesi döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BookController.GetBooksByYear(System.Int32)">
+            <summary>
+            Yayımlanma yılına göre kitapları listeleyen metod.
+            </summary>
+            <param name="year">Yayımlanma yılı.</param>
+            <returns>Belirtilen yıl bazında kitapların listesi döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BookController.GetBooksByYearRange(System.Int32,System.Int32)">
+            <summary>
+            Belirtilen yıl aralığında yayımlanan kitapları getirir.
+            </summary>
+            <param name="startYear">Başlangıç yılı.</param>
+            <param name="endYear">Bitiş yılı.</param>
+            <returns>Yıl aralığına göre filtrelenmiş kitap listesi.</returns>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Controllers.BorrowedBookController">
+            <summary>
+            Ödünç alınmış Kitap işlemleriyle ilgili API metodlarını içeren controller sınıfı.
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BorrowedBookController.#ctor(AutoMapper.IMapper,FluentValidation.IValidator{LibraryManagementAPI.Service.DTO.BorrowedBookCreateDTO},FluentValidation.IValidator{LibraryManagementAPI.Service.DTO.BorrowedBookUpdateDTO},LibraryManagementAPI.Core.Services.IBorrowedBookService,LibraryManagementAPI.Data.Repositories.LibraryDbContext)">
+            <summary>
+            <see cref="T:LibraryManagement.WebAPI.Controllers.BorrowedBookController"/> sınıfının kurucusu
+            </summary>
+            <param name="mapper">DTO'lar ile entity'ler arasındaki dönüşümü yapan Mapper nesnesi.</param>
+            <param name="validator">Yeni ödünç kitap kaydı için doğrulama işlemi yapan validator.</param>
+            <param name="updateValidator">Mevcut ödünç kitap kaydını güncelleme için doğrulama işlemi yapan validator.</param>
+            <param name="borrowedBookService">Ödünç kitap işlemleri için servis sınıfı.</param>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BorrowedBookController.CreateBorrowedBook(LibraryManagementAPI.Service.DTO.BorrowedBookCreateDTO)">
+            <summary>
+            Yeni bir ödünç kitap kaydı oluşturur.
+            </summary>
+            <param name="borrowedBookCreateDTO">Yeni ödünç kitap kaydını içeren DTO.</param>
+            <returns>Başarıyla oluşturulursa ödünç kitap döndürülür.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BorrowedBookController.GetBorrowedBook(System.Int32)">
+            <summary>
+            Belirtilen ID'ye sahip ödünç kitap kaydını getirir.
+            </summary>
+            <param name="id">Getirilecek ödünç kitap kaydının ID'si.</param>
+            <returns>Ödünç kitap kaydı bulunursa döndürülür.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BorrowedBookController.GetAlllBorrowedBook">
+            <summary>
+            Tüm ödünç alınan kitapları getirir.
+            </summary>
+            <returns>Tüm ödünç alınan kitapları içeren bir liste döndürür.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.BorrowedBookController.DeleteBorrowedBook(System.Int32)">
+            <summary>
+            Belirtilen ID'ye sahip ödünç kitap kaydını siler.
+            </summary>
+            <param name="id">Silinecek ödünç kitap kaydının ID'si.</param>
+            <returns>Başarıyla silinirse 204 No Content döndürülür. Ödünç kitap kaydı bulunamazsa 404 döndürülür.</returns>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Controllers.MemberController">
+            <summary>
+            Üye işlemlerini yönetmek için kullanılan controller sınıfı.
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.MemberController.#ctor(LibraryManagementAPI.Core.Services.IMemberService,AutoMapper.IMapper,FluentValidation.IValidator{LibraryManagementAPI.Service.DTO.MemberCreateDTO},FluentValidation.IValidator{LibraryManagementAPI.Service.DTO.MemberUpdateDTO})">
+            <summary>
+            <see cref="T:LibraryManagement.WebAPI.Controllers.MemberController"/> sınıfının kurucusu.
+            </summary>
+            <param name="memberService">Üye servisi.</param>
+            <param name="mapper">DTO ve Entity dönüştürmeleri için kullanılan mapper.</param>
+            <param name="createValidator">Yeni üye eklemek için kullanılan doğrulayıcı.</param>
+            <param name="updateValidator">Üye güncelleme işlemi için kullanılan doğrulayıcı.</param>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.MemberController.CreateMember(LibraryManagementAPI.Service.DTO.MemberCreateDTO)">
+            <summary>
+            Yeni bir üye oluşturur.
+            </summary>
+            <param name="memberCreateDto">Oluşturulacak üye bilgilerini içeren DTO.</param>
+            <returns>Başarılı bir şekilde üye oluşturulursa, üye bilgisi ile birlikte 201 Created status kodu döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.MemberController.GetMemberById(System.Int32)">
+            <summary>
+            Verilen ID'ye sahip üye bilgilerini döner.
+            </summary>
+            <param name="id">Üyenin ID'si.</param>
+            <returns>Üye bulunursa, üye bilgilerini içeren 200 OK döner; bulunamazsa 404 Not Found döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.MemberController.GetAllMembers">
+            <summary>
+            Sistemdeki tüm üyeleri döner.
+            </summary>
+            <returns>Üyelerin listesi döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.MemberController.UpdateMember(System.Int32,LibraryManagementAPI.Service.DTO.MemberUpdateDTO)">
+            <summary>
+            Verilen ID'ye sahip üyenin bilgilerini günceller.
+            </summary>
+            <param name="id">Güncellenmek istenen üyenin ID'si.</param>
+            <param name="memberUpdateDto">Güncellenmiş üye bilgilerini içeren DTO.</param>
+            <returns>Başarılı bir şekilde güncellenirse, 204 No Content döner; hata durumunda 400 Bad Request veya 404 Not Found döner.</returns>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.MemberController.DeleteMember(System.Int32)">
+            <summary>
+            Verilen ID'ye sahip üyeyi siler.
+            </summary>
+            <param name="id">Silinmek istenen üyenin ID'si.</param>
+            <returns>Başarılı bir şekilde silindiyse, 204 No Content döner; silinemeyen bir üye için 400 Bad Request döner.</returns>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Controllers.WeatherForecastController">
+            <summary>
+            Hava durumu işlemleri ile ilgili API metodlarını çalıştıran controller sınıfı
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{LibraryManagement.WebAPI.Controllers.WeatherForecastController})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="logger">DI Injection parametresi</param>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Controllers.WeatherForecastController.Get">
+            <summary>
+            Tüm hava durumlarını getiren api metodu
+            </summary>
+            <returns>Mevcut tahmini hava durumunu döndürür</returns>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Validations.AuthorCreateDTOValidator">
+            <summary>
+            Yazar DTO yapısına bağlı doğrulama işlemi yapan validator yapısı
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Validations.AuthorCreateDTOValidator.#ctor">
+            <summary>
+            Belirli parametrelere göre kayıt sırasınd doğrulama adımları içeren constructor yapısı
+            </summary>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Validations.AuthorUpdateDTOValidator">
+            <summary>
+            Yazar güncelleme DTO yapısına bağlı doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Validations.AuthorUpdateDTOValidator.#ctor">
+            <summary>
+            Belirli parametrelere göre güncelleme esnasında doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Validations.BookCreateDTOValidator">
+            <summary>
+            Kitap oluşturma DTO yapısına bağlı doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Validations.BookCreateDTOValidator.#ctor">
+            <summary>
+             Belirli parametrelere göre kitap kayıt esnasında doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Validations.BookUpdateDTOValidator">
+            <summary>
+            Kitap güncelleme DTO yapısına bağlı doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Validations.BookUpdateDTOValidator.#ctor">
+            <summary>
+             Belirli parametrelere göre güncelleme esnasında doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Validations.BorrowedBookCreateDTOValidator">
+            <summary>
+            Ödünç Kitap oluşturma DTO yapısına bağlı doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Validations.BorrowedBookCreateDTOValidator.#ctor">
+            <summary>
+            Belirli parametrelere göre ödünç kitap kayıt esnasında doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Validations.BorrowedBookUpdateDTOValidator">
+            <summary>
+            Ödünç alınmış kitaba ait DTO yapısını doğrulayan sınıd
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Validations.BorrowedBookUpdateDTOValidator.#ctor">
+            <summary>
+            Doğrulama yapısına ait constructor. Belirli parametrelere göre doğrulama yapar
+            </summary>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Validations.MemberCreateDTOValidator">
+            <summary>
+             Üye oluşturma DTO yapısına bağlı doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Validations.MemberCreateDTOValidator.#ctor">
+            <summary>
+            Belirli parametrelere göre üye kayıt esnasında doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.Validations.MemberUpdateDTOValidator">
+            <summary>
+            Üye güncelleme DTO yapısına bağlı doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="M:LibraryManagement.WebAPI.Validations.MemberUpdateDTOValidator.#ctor">
+            <summary>
+            Belirli parametrelere göre üye güncelleme esnasında doğrulama işlemi yapan validator
+            </summary>
+        </member>
+        <member name="T:LibraryManagement.WebAPI.WeatherForecast">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LibraryManagement.WebAPI.WeatherForecast.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LibraryManagement.WebAPI.WeatherForecast.TemperatureC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LibraryManagement.WebAPI.WeatherForecast.TemperatureF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LibraryManagement.WebAPI.WeatherForecast.Summary">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

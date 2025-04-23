@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B16703D-5DF1-4876-83B0-6574C0002A89}|LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj|c:\\users\\metehan ok\\source\\repos\\librarymanagement\\librarymanagementapi.service\\services\\borrowedbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B16703D-5DF1-4876-83B0-6574C0002A89}|LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj|solutionrelative:librarymanagementapi.service\\services\\borrowedbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B16703D-5DF1-4876-83B0-6574C0002A89}|LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj|c:\\users\\metehan ok\\source\\repos\\librarymanagement\\librarymanagementapi.service\\dto\\borrowedbookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B16703D-5DF1-4876-83B0-6574C0002A89}|LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj|solutionrelative:librarymanagementapi.service\\dto\\borrowedbookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BorrowedBookCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\DTO\\BorrowedBookCreateDTO.cs",
+              "RelativeDocumentMoniker": "LibraryManagementAPI.Service\\DTO\\BorrowedBookCreateDTO.cs",
+              "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\DTO\\BorrowedBookCreateDTO.cs",
+              "RelativeToolTip": "LibraryManagementAPI.Service\\DTO\\BorrowedBookCreateDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:38:36.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowedBookService.cs",
+              "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\Services\\BorrowedBookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementAPI.Service\\Services\\BorrowedBookService.cs",
+              "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\Services\\BorrowedBookService.cs",
+              "RelativeToolTip": "LibraryManagementAPI.Service\\Services\\BorrowedBookService.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAswIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:22:10.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
