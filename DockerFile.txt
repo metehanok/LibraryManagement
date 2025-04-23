@@ -20,8 +20,8 @@ COPY ["LibraryManagementAPI.Service/LibraryManagementAPI.Service.csproj", "Libra
 RUN dotnet restore "LibraryManagement.sln"
 
 # Projeleri build et
-COPY . .  # Kodun tamamýný kopyala
-WORKDIR "/src"  # Çalýþma dizinini src olarak ayarla
+COPY . . 
+WORKDIR "/src/."
 RUN dotnet build "LibraryManagement.sln" -c Release -o /app/build
 
 # Uygulama dosyalarýný çýkar
@@ -31,8 +31,11 @@ RUN dotnet publish "LibraryManagement.sln" -c Release -o /app/publish
 # Çalýþtýrma aþamasý
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .  # Publish edilmiþ dosyayý kopyala
-ENTRYPOINT ["dotnet", "LibraryManagement.WebAPI.dll"]  # Uygulama baþlatma komutu
+COPY --from=publish /app/publish . 
+
+# Burada doðru .dll dosyasýný belirtiyoruz
+ENTRYPOINT ["dotnet", "LibraryManagement.WebAPI.dll"]
+
 
 
 
