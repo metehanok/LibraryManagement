@@ -1,0 +1,25 @@
+# Base image olarak .NET SDK'yý alýyoruz
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+
+# Çalýþma dizini oluþturuyoruz
+WORKDIR /app
+
+# Proje dosyasýný kopyalayýp restore ediyoruz
+COPY LibraryManagement.API/LibraryManagement.API.csproj ./LibraryManagement.API/
+RUN dotnet restore ./LibraryManagement.API/LibraryManagement.API.csproj  
+
+# Proje dosyalarýný kopyalayýp uygulamayý build ediyoruz
+COPY . .
+WORKDIR /app/LibraryManagement.API
+RUN dotnet publish -c Release -o out  
+
+# Çalýþtýrýlabilir imaj oluþturuluyor
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+WORKDIR /app
+COPY --from=build /app/LibraryManagement.API/out .  
+
+# Projeyi baþlatýyoruz
+ENTRYPOINT ["dotnet", "LibraryAutomation.dll"]  
+
+# Port açýyoruz
+EXPOSE 80  
