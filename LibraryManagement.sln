@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementAPI.Data",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementAPI.Service", "LibraryManagementAPI.Service\LibraryManagementAPI.Service.csproj", "{8B16703D-5DF1-4876-83B0-6574C0002A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementWebAPI.Test.Unit", "LibraryManagementWebAPI.Test/LibraryManagementWebAPI.Test.Unit.csproj", "{GUID}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementAPI.Tests.Unit", "LibraryManagementWebAPI.Tests\LibraryManagementAPI.Tests.Unit.csproj", "{C2ABE082-8A15-48AA-8F2A-8EBCFEEB426D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73153040-1676-4F91-A875-C49DD87A72B7}"
 	ProjectSection(SolutionItems) = preProject
