@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7EA974C-7EC3-45CA-96A6-3E0669307397}|Solution Items{A7EA974C-7EC3-45CA-96A6-3E0669307397}|C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\Dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A7EA974C-7EC3-45CA-96A6-3E0669307397}|Solution Items{A7EA974C-7EC3-45CA-96A6-3E0669307397}|solutionrelative:Dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{73153040-1676-4F91-A875-C49DD87A72B7}|Solution Items{73153040-1676-4F91-A875-C49DD87A72B7}|C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{73153040-1676-4F91-A875-C49DD87A72B7}|Solution Items{73153040-1676-4F91-A875-C49DD87A72B7}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B855820F-7345-45EF-BE69-B3CD73B5B549}|LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj|c:\\users\\metehan ok\\source\\repos\\librarymanagement\\librarymanagement.webapi\\librarymanagement.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -55,25 +55,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dockerfile.txt",
-              "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\DockerFile.txt",
-              "RelativeDocumentMoniker": "DockerFile.txt",
-              "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\DockerFile.txt",
-              "RelativeToolTip": "DockerFile.txt",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-23T17:05:32.549Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-23T17:14:07.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LibraryManagement.WebAPI",
+              "Title": "LibraryManagement.WebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj",
               "RelativeDocumentMoniker": "LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj",
               "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj",
               "RelativeToolTip": "LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-04-23T16:26:11.252Z",
               "EditorCaption": ""
@@ -88,8 +88,7 @@
               "RelativeToolTip": "LibraryManagement.WebAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T15:35:29.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T15:35:29.823Z"
             },
             {
               "$type": "Document",
@@ -101,8 +100,7 @@
               "RelativeToolTip": "LibraryManagementAPI.Data\\Repositories\\LibraryDbContext.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T15:35:12.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T15:35:12.135Z"
             },
             {
               "$type": "Document",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "LibraryManagement.WebAPI\\Program.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAowGEAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T15:35:07.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T15:35:07.994Z"
             },
             {
               "$type": "Document",
@@ -127,8 +124,7 @@
               "RelativeToolTip": "LibraryManagement.WebAPI\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T15:35:00.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T15:35:00.453Z"
             },
             {
               "$type": "Document",
@@ -152,8 +148,7 @@
               "RelativeToolTip": "LibraryManagementAPI.Service\\Services\\BorrowedBookService.cs",
               "ViewState": "AgIAAKsAAAAAAAAAAAAowIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:22:10.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T12:22:10.254Z"
             }
           ]
         }
