@@ -1,7 +1,8 @@
 # .NET SDK imajýný kullanýyoruz
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
-EXPOSE 80
+EXPOSE 5000
+
 
 # Build aþamasý
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
@@ -15,6 +16,7 @@ COPY ["LibraryManagement.WebAPI/LibraryManagement.WebAPI.csproj", "LibraryManage
 COPY ["LibraryManagementAPI.Core/LibraryManagementAPI.Core.csproj", "LibraryManagementAPI.Core/"]
 COPY ["LibraryManagementAPI.Data/LibraryManagementAPI.Data.csproj", "LibraryManagementAPI.Data/"]
 COPY ["LibraryManagementAPI.Service/LibraryManagementAPI.Service.csproj", "LibraryManagementAPI.Service/"]
+COPY ["LibraryManagementWebAPI.Test/LibraryManagementWebAPI.Test.Unit.csproj", "LibraryManagementWebAPI.Test/"]
 
 
 # NuGet restore iþlemi
