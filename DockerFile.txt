@@ -34,10 +34,3 @@ COPY --from=publish /app/publish .
 
 # Burada doðru .dll dosyasýný belirtiyoruz
 ENTRYPOINT ["dotnet", "LibraryManagement.WebAPI.dll"]
-
-
-
-
-
-
-
