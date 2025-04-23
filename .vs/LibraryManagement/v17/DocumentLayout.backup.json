@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B855820F-7345-45EF-BE69-B3CD73B5B549}|LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj|c:\\users\\metehan ok\\source\\repos\\librarymanagement\\librarymanagement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B855820F-7345-45EF-BE69-B3CD73B5B549}|LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj|solutionrelative:librarymanagement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B855820F-7345-45EF-BE69-B3CD73B5B549}|LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj|c:\\users\\metehan ok\\source\\repos\\librarymanagement\\librarymanagement.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B855820F-7345-45EF-BE69-B3CD73B5B549}|LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj|solutionrelative:librarymanagement.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42FD7F92-B550-497D-9247-65BFAE5D588F}|Solution Items{42FD7F92-B550-497D-9247-65BFAE5D588F}|C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\Dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{42FD7F92-B550-497D-9247-65BFAE5D588F}|Solution Items{42FD7F92-B550-497D-9247-65BFAE5D588F}|solutionrelative:Dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043AA1E8-E573-4371-B1FD-CD03D1D80F1A}|LibraryManagementAPI.Data\\LibraryManagementAPI.Data.csproj|c:\\users\\metehan ok\\source\\repos\\librarymanagement\\librarymanagementapi.data\\repositories\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043AA1E8-E573-4371-B1FD-CD03D1D80F1A}|LibraryManagementAPI.Data\\LibraryManagementAPI.Data.csproj|solutionrelative:librarymanagementapi.data\\repositories\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B855820F-7345-45EF-BE69-B3CD73B5B549}|LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj|c:\\users\\metehan ok\\source\\repos\\librarymanagement\\librarymanagement.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B855820F-7345-45EF-BE69-B3CD73B5B549}|LibraryManagement.WebAPI\\LibraryManagement.WebAPI.csproj|solutionrelative:librarymanagement.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B16703D-5DF1-4876-83B0-6574C0002A89}|LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj|c:\\users\\metehan ok\\source\\repos\\librarymanagement\\librarymanagementapi.service\\services\\borrowedbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B16703D-5DF1-4876-83B0-6574C0002A89}|LibraryManagementAPI.Service\\LibraryManagementAPI.Service.csproj|solutionrelative:librarymanagementapi.service\\services\\borrowedbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +50,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile.txt",
+              "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\DockerFile.txt",
+              "RelativeDocumentMoniker": "DockerFile.txt",
+              "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\DockerFile.txt",
+              "RelativeToolTip": "DockerFile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-23T15:53:00.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagement.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\appsettings.json",
+              "RelativeToolTip": "LibraryManagement.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T15:35:29.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\Repositories\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "LibraryManagementAPI.Data\\Repositories\\LibraryDbContext.cs",
+              "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Data\\Repositories\\LibraryDbContext.cs",
+              "RelativeToolTip": "LibraryManagementAPI.Data\\Repositories\\LibraryDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:35:12.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\Program.cs",
+              "RelativeToolTip": "LibraryManagement.WebAPI\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowEoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:35:07.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LibraryManagement.WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagement.WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LibraryManagement.WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T15:35:00.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BorrowedBookCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\DTO\\BorrowedBookCreateDTO.cs",
               "RelativeDocumentMoniker": "LibraryManagementAPI.Service\\DTO\\BorrowedBookCreateDTO.cs",
@@ -38,25 +123,20 @@
               "RelativeToolTip": "LibraryManagementAPI.Service\\DTO\\BorrowedBookCreateDTO.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:38:36.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T12:38:36.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "BorrowedBookService.cs",
               "DocumentMoniker": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\Services\\BorrowedBookService.cs",
               "RelativeDocumentMoniker": "LibraryManagementAPI.Service\\Services\\BorrowedBookService.cs",
               "ToolTip": "C:\\Users\\Metehan Ok\\source\\repos\\LibraryManagement\\LibraryManagementAPI.Service\\Services\\BorrowedBookService.cs",
               "RelativeToolTip": "LibraryManagementAPI.Service\\Services\\BorrowedBookService.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAswIMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAowIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T12:22:10.254Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

@@ -161,3 +161,4 @@ C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementWebAPI.Tests
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementWebAPI.Tests\obj\Debug\net8.0\LibraryManagementAPI.Tests.Unit.pdb
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementWebAPI.Tests\obj\Debug\net8.0\LibraryManagementAPI.Tests.Unit.genruntimeconfig.cache
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementWebAPI.Tests\obj\Debug\net8.0\ref\LibraryManagementAPI.Tests.Unit.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementWebAPI.Tests\obj\Debug\net8.0\LibraryManagementAPI.Tests.Unit.sourcelink.json

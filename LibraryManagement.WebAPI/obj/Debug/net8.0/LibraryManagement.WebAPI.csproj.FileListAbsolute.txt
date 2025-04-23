@@ -157,3 +157,4 @@ C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagement.WebAPI\obj\
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagement.WebAPI\obj\Debug\net8.0\LibraryManagement.WebAPI.genruntimeconfig.cache
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagement.WebAPI\obj\Debug\net8.0\ref\LibraryManagement.WebAPI.dll
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagement.WebAPI\obj\Debug\net8.0\LibraryManagement.WebAPI.xml
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagement.WebAPI\obj\Debug\net8.0\LibraryManagement.WebAPI.sourcelink.json

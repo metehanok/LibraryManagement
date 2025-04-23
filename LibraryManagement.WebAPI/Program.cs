@@ -72,7 +72,7 @@ builder.Services.AddEndpointsApiExplorer();
 //    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
 //    c.IncludeXmlComments(xmlPath);
 //}
-);
+//);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -95,7 +95,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthentication();
 
-
+builder.WebHost.UseUrls("http://0.0.0.0:5000");
 
 app.UseAuthorization();
 

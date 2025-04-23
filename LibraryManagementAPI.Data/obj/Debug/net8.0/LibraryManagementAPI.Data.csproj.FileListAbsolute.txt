@@ -15,3 +15,4 @@ C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.pdb
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.genruntimeconfig.cache
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\ref\LibraryManagementAPI.Data.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Data\obj\Debug\net8.0\LibraryManagementAPI.Data.sourcelink.json

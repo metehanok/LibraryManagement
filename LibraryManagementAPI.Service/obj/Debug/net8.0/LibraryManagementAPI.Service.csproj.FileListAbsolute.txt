@@ -15,3 +15,4 @@ C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\refint\LibraryManagementAPI.Service.dll
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryManagementAPI.Service.pdb
 C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\ref\LibraryManagementAPI.Service.dll
+C:\Users\Metehan Ok\source\repos\LibraryManagement\LibraryManagementAPI.Service\obj\Debug\net8.0\LibraryManagementAPI.Service.sourcelink.json
