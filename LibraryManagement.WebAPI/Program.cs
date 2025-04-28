@@ -97,7 +97,7 @@ app.UseCors(builder =>
            .AllowAnyHeader()
           .AllowAnyMethod());
 builder.WebHost.UseUrls("http://0.0.0.0:5000");//render için 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthentication();
 
