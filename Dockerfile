@@ -16,7 +16,7 @@ COPY ["LibraryManagement.WebAPI/LibraryManagement.WebAPI.csproj", "LibraryManage
 COPY ["LibraryManagementAPI.Core/LibraryManagementAPI.Core.csproj", "LibraryManagementAPI.Core/"]
 COPY ["LibraryManagementAPI.Data/LibraryManagementAPI.Data.csproj", "LibraryManagementAPI.Data/"]
 COPY ["LibraryManagementAPI.Service/LibraryManagementAPI.Service.csproj", "LibraryManagementAPI.Service/"]
-#COPY ["LibraryManagementWebAPI.Test/LibraryManagementWebAPI.Test.Unit.csproj", "LibraryManagementWebAPI.Test/"]
+COPY ["LibraryManagementWebAPI.Test/LibraryManagementWebAPI.Test.Unit.csproj", "LibraryManagementWebAPI.Test/"]
 
 
 # NuGet restore iþlemi
