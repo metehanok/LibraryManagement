@@ -48,7 +48,7 @@ builder.Services.AddScoped<IBorrowedBookService, BorrowedBookService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen(c =>
+builder.Services.AddSwaggerGen(//c =>
 //{
 //    c.SwaggerDoc("v1", new OpenApiInfo
 //    {
@@ -72,7 +72,8 @@ builder.Services.AddEndpointsApiExplorer();
 //    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
 //    c.IncludeXmlComments(xmlPath);
 //}
-//);
+);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -86,16 +87,21 @@ if (app.Environment.IsDevelopment())
     //}
     );
 }
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/swagger");
+    return Task.CompletedTask;
+});
 app.UseCors(builder =>
-    builder.WithOrigins("https://localhost:44324")
+    builder.WithOrigins("https://librarymanagement-59gn.onrender.com")
            .AllowAnyHeader()
-          .AllowAnyMethod()); 
-
+          .AllowAnyMethod());
+builder.WebHost.UseUrls("http://0.0.0.0:5000");//render için 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthentication();
 
-builder.WebHost.UseUrls("http://0.0.0.0:5000");//render için 
+
 
 app.UseAuthorization();
 
